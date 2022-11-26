@@ -1,0 +1,45 @@
+{
+   "name": "solid-nodejs",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "compile": "tsc",
+      "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
+      "prod": "node dist/server.js",
+      "typeormcjs": "typeorm-ts-node-commonjs",
+      "typeormesm": "typeorm-ts-node-esm",
+      "typeorm": "typeorm-ts-node-commonjs",
+      "start": "ts-node src/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcrypt": "^5.1.0",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.7.3",
+      "nodemailer": "^6.8.0",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.10",
+      "uuid": "^9.0.0",
+      "uuidv4": "^6.2.13"
+   },
+   "devDependencies": {
+      "@types/bcrypt": "^5.0.0",
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.14",
+      "@types/jsonwebtoken": "^8.5.9",
+      "@types/mongoose": "^5.11.97",
+      "@types/node": "^16.11.10",
+      "@types/nodemailer": "^6.4.6",
+      "@types/uuid": "^8.3.4",
+      "@types/uuidv4": "^5.0.0",
+      "ts-node": "10.7.0",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "4.5.2"
+   }
+}
