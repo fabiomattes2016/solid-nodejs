@@ -6,15 +6,15 @@ Este projeto usa o SOLID como padrão.
 
 Comandos:
 
-Compilar: npm run compile
+Compilar: npm run|yarn compile
 
-Desenvolvimento: npm run dev
+Desenvolvimento: npm run|yarn dev
 
-**Produção: npm run prod
+**Produção: npm run|yarn prod
 
-Criar novas migrations: yarn typeorm migration:generate -d .\src\infra\database\PostgresDataSource.ts .\src\infra\database\migrations\CreateTableUsers
+Criar novas migrations: npm run|yarn typeorm migration:generate -d .\src\infra\database\PostgresDataSource.ts .\src\infra\database\migrations\CreateTableUsers
 
-Executar as migrations: yarn typeorm migration:run -d .\src\infra\database\PostgresDataSource.ts
+Executar as migrations:npm run|yarn typeorm migration:run -d .\src\infra\database\PostgresDataSource.ts
 
 ** Somente depois de compilar
 
